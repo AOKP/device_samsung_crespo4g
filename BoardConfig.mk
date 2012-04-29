@@ -31,5 +31,8 @@ include device/samsung/crespo/BoardConfigCommon.mk
 # Use the parts that are common between all crespos
 include device/samsung/crespo/BoardConfigCommon.mk
 
+# kernel
+TARGET_PREBUILT_KERNEL := device/samsung/crespo/kernel
+
 #TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_crespo4g
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/crespo4g
